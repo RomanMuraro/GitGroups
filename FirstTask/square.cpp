@@ -7,9 +7,13 @@ int sqrt(int a){
 	a = pow(a,2);
 return a;}
 int main(){
+	cout<<" Hi! This is sqrt of number! "<<endl;
 	int b;
+	int c;
+	cout<<"Enter the number"<<endl;
 	cin>>b;
+	c = b;
 	b = sqrt(b);
-	cout<<b<<endl;
+	cout<<"Sqrt of"<<c<<"is"<<b<<endl;
 	
 return 0;}
